@@ -7,6 +7,7 @@ const DashboardPage = async () => {
   return (
     <div>
       <h1 className="text-4xl text-center mt-10">Welcome To Dashboard Page</h1>
+      <p>{session?.user?.name}</p>
     </div>
   );
 };
